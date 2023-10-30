@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hairnic</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Sección de Inicio-->
@@ -15,7 +17,7 @@
                 </div>
                 <nav class="nav" id="nav">
                     <ul class="menu" id="menu">
-                        <li><a href="#inicio">Home</a></li>
+                        <li><a id="color" href="#inicio">Home</a></li>
                         <li><a href="#info">About</a></li>
                         <li><a href="#products">Products</a></li>
                         <li><a href="">Pages</a>
@@ -26,66 +28,492 @@
                             </ul>
                         </li>
                         <li><a href="#contact">Contact</a></li>
+                        <li><button class="btn btn-1">Shop Now</button></li>
                     </ul>
                 </nav>
             </header>
 
-            <div class="text">
-
+        <!--Sección del texto del Encabezado-->
+        <div class="inicio-fila" id="inicio-fila">
+            <div class="inicio-col" id="inicio-col">
+                <h4>Natural & Organic</h4>
+                <h1>Hair <span>Shampoo</span> For <br>Healthy Hair</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Incidunt at hic praesentium, quos laborum, suscipit laudantium eaque, 
+                aliquid earum repellendus vero fugit! Necessitatibus expedita 
+                recusandae voluptas maiores eius nam officia?</p>
+                <button class="btn btn-1-1">Shop Now</button>
+                <button class="btn btn-2">Contact Us</button>
             </div>
-            
+            <div class="inicio-col" id="inicio-col">
+                <div class="imagen-header">
+                    <img src="img/shampoo.png" alt="">
+                </div>
+            </div>
         </div>
-
     </section>
 
     <!--Sección de ventajas-->
     <section class="info" id="info">
-
+        <div class="contenedor-info">
+            <div class="fila-ventaja">
+                <div class="col-ventaja">
+                    <div class="card-ventaja">
+                        <div class="lineback">
+                            <div class="icons-ventaja">
+                                <img class="img-ventaja" src="img/leaf.png" alt="">
+                            </div>
+                            <h3 class="titulo-card">100% Natural</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-ventaja">
+                    <div class="card-ventaja">
+                        <div class="lineback">
+                            <div class="icons-ventaja">
+                                <img class="img-ventaja" src="img/no-water.png" alt="">
+                            </div>
+                            <h3 class="titulo-card">Anti Hair Fall</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-ventaja">
+                    <div class="card-ventaja">
+                        <div class="lineback">
+                            <div class="icons-ventaja">
+                                <img class="img-ventaja" src="img/x.png" alt="">
+                            </div>
+                            <h3 class="titulo-card">Hypoallergenic</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info-shampoo">
+                <div class="imagen-shampoo-ventaja">
+                    <img src="img/shampoo-1.png" alt="">
+                </div>
+                <div class="shampoo-text">
+                    <h1>Healthy Hair <span>Is A Symbol <br>Of Our Beauty</span></h1>
+                    <div class="shampoo-p">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptas quidem repellendus quibusdam soluta illum excepturi 
+                            ea quis omnis debitis rem enim molestias magnam, dolor, praesentium 
+                            esse aspernatur facilis, sunt quo! Lorem ipsum dolor sit.</p>
+                            <br>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse fugiat, 
+                            aliquid modi laboriosam, ut minus est quaerat numquam.</p>
+                    </div>
+                        <button class="btn btn-3">Shop Now</button>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--Sección de precios-->
     <section class="precio" id="precio">
-
+        <div class="fondo-precio">
+            <div class="contenedor-precio">
+                <div class="imagen-precio">
+                    <img src="img/shampoo-2.png" alt="">
+                </div>
+                <div class="card-precio">
+                    <div class="line-price">
+                        <div class="info-price">
+                            <h4>Natural & Organic Shampoo</h4>
+                    <h1>DEALS OF THE DAY</h1>
+                    <h1 id="obj-price">$99.99</h1>
+                    <h3>Fresh Organic Shampoo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quos dolor 
+                        voluptates libero eaque voluptate.</p>
+                    <div class="fila-precio">
+                        <div class="col-precio">
+                            <h1>109</h1>
+                            <p>-Days-</p>
+                        </div>
+                        <div class="col-precio">
+                            <h1>13</h1>
+                            <p>-Hours-</p>
+                        </div>
+                        <div class="col-precio">
+                            <h1>49</h1>
+                            <p>-Mins-</p>
+                        </div>
+                        <div class="col-precio">
+                            <h1>44</h1>
+                            <p>-Secs-</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-3" id="btn-price">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--Sección de beneficios-->
     <section class="benefits" id="benefits">
-
+        <div class="contenedor-benefits">
+            <h1><span>Best Benefits Of Our </span>Natural <br> Hair Shampoo</h1>
+            <p class="text-benefits">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptate dolores
+                enim dignissimos, corrupti, delectus cum voluptas tempore.</p>
+            <div class="contenedor-info-benefits">
+                <div class="left">
+                    <div class="column-checks-left">
+                        <div class="icon-benefits">
+                            <img src="img/check.png" alt="">
+                        </div>
+                        <div class="icon-benefits">
+                            <img src="img/check.png" alt="">
+                        </div>
+                        <div class="icon-benefits">
+                            <img src="img/check.png" alt="">
+                        </div>
+                    </div>
+                    <div class="column-info-left">
+                        <div class="info-benefits">
+                            <h1 class="info-ben-title" >Natural & Organic</h1>
+                            <hr class="rayita">
+                            <p >Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="info-benefits">
+                            <h1 class="info-ben-title" >Anti Hair Fall</h1>
+                            <hr class="rayita">
+                            <p >Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="info-benefits">
+                            <h1 class="info-ben-title">Anti-dandruff</h1>
+                            <hr class="rayita">
+                            <p >Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagen-benefits">
+                    <img src="img/shampoo.png" alt="">
+                </div>
+                <div class="right">
+                    <div class="column-checks-right">
+                        <div class="icon-benefits">
+                            <img src="img/check.png" alt="">
+                        </div>
+                        <div class="icon-benefits">
+                            <img src="img/check.png" alt="">
+                        </div>
+                        <div class="icon-benefits">
+                            <img src="img/check.png" alt="">
+                        </div>    
+                    </div>
+                    <div class="column-info-right">
+                        <div class="info-benefits">
+                            <h1 class="info-ben-title" >No Internal Side Effect</h1>
+                            <hr class="rayita">
+                            <p class="info-ben-p">Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="info-benefits">
+                            <h1 class="info-ben-title" >No Skin Irritation</h1>
+                            <hr class="rayita">
+                            <p class="info-ben-p">Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="info-benefits">
+                            <h1 class="info-ben-title">No Artificial Smell</h1>
+                            <hr class="rayita">
+                            <p class="info-ben-p">Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--Sección de modo de uso-->
     <section class="uso" id="uso">
-
+        <div class="fondo-uso">
+            <div class="modo-uso">
+                <div class="info-uso">
+                    <h1><span>How To Use Our </span>Natural & <br>
+                        Organic <span>Hair Shampoo</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptates deleniti 
+                        voluptate enim maxime nemo possimus suscipit.</p>
+                    <div class="fila"></div>
+                </div>
+                <div class="fila-uso">
+                    <div class="col-uso">
+                        <div class="contenedor-house">
+                            <img src="img/house.png" alt="">
+                        </div>
+                        <h3>Wash Hair With Water</h3>
+                        <div class="line-between"></div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic dignissimos 
+                            incidunt est commodi minima doloremque.</p>
+                    </div>
+                    <div class="col-uso">
+                        <div class="contenedor-house">
+                            <img src="img/house.png" alt="">
+                        </div>
+                        <h3>Apply Shampoo On Hair</h3>
+                        <div class="line-between"></div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic dignissimos 
+                            incidunt est commodi minima doloremque.</p>
+                    </div>
+                    <div class="col-uso">
+                        <div class="contenedor-house">
+                            <img src="img/house.png" alt="">
+                        </div>
+                        <h3>Wait  Mins And Wash</h3>
+                        <div class="line-between"></div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic dignissimos 
+                            incidunt est commodi minima doloremque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--Sección de productos-->
     <section class="products" id="products">
-
+        <div class="contenedor-productos">
+            <h1><span>Our Natural </span>Hair Products</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae facilis neque, 
+                nulla, asperiores excepturi unde.</p>
+        </div>
+        <div class="fila-productos">
+            <div class="col-productos">
+                <div class="line-card">
+                    <div class="card-productos">
+                        <div class="card-img">
+                            <img src="img/product-1.png" alt="">
+                        </div>
+                        <p><span>☆☆☆☆☆</span>(99)</p>
+                        <h4>Hair Shining Shampoo</h4>
+                        <h3>$99.99</h3>
+                        <button class="btn btn-4">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-productos">
+                <div class="line-card">
+                    <div class="card-productos">
+                        <div class="card-img">
+                            <img src="img/product-2.png" alt="">
+                        </div>
+                        <p><span>☆☆☆☆☆</span>(99)</p>
+                        <h4>Anti-dandruff Shampoo</h4>
+                        <h3>$99.99</h3>
+                        <button class="btn btn-4">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-productos">
+                <div class="line-card">
+                    <div class="card-productos">
+                        <div class="card-img">
+                            <img src="img/product-1.png" alt="">
+                        </div>
+                        <p><span>☆☆☆☆☆</span>(99)</p>
+                        <h4>Anti Hair Fall Shampoo</h4>
+                        <h3>$99.99</h3>
+                        <button class="btn btn-4">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-productos">
+                <div class="line-card">
+                    <div class="card-productos">
+                        <div class="card-img">
+                            <img src="img/product-2.png" alt="">
+                        </div>
+                        <p><span>☆☆☆☆☆</span>(99)</p>
+                        <h4>Hair Growing Shampoo</h4>
+                        <h3>$99.99</h3>
+                        <button class="btn btn-4">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--Sección de comentarios-->
     <section class="comments" id="comments">
-
+        <div class="contenedor-comentarios">
+            <h1>Our Customer Said <span>About Our <br> Natural Shampoo</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis molestias rerum <br>  commodi sint soluta adipisci sequi odit.</p>
+            <div class="testimonio-2">
+                <div class="img-testimonial-2">
+                    <img src="img/testimonial-2.jpg" alt="">
+                </div>
+                <p class="texto-coment">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis alias tempora aliquid harum eum quod, repellendus qui maiores similique totam, minima dignissimos! Accusamus labore quod nobis esse nisi, voluptatem animi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse iste temporibus provident suscipit laborum maxime non omnis perspiciatis eligendi, quis fuga saepe cum. Minus nihil dolor tempore, laborum est sapiente.</p>
+                <h4 class="titulo-cliente">Client Name</h4>
+                <p class="texto-profesion">Profession</p>
+            </div>
+            <button class="btn btn-5">1</button>
+            <button class="btn btn-5-5">2</button>
+            <button class="btn btn-5">3</button>
+        </div>
     </section>
 
     <!--Sección de comentarios en blogs-->
     <section class="blog" id="blog">
-
+        <div class="contenedor-blog">
+            <h1><span>From Our</span> Blog Articles</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo ullam consectetur 
+                odio officia perferendis? Nihil officia, amet obcaecati quidem recusandae qui 
+                nulla sint.</p>
+        </div>
+        <div class="fila-blog">
+            <div class="blogs">
+                <div class="line-blog">
+                    <div class="col-blog">
+                        <div class="imagen-blog">
+                            <img src="img/blog-1.jpg" alt="">
+                        </div>
+                        <h3>Foods that are good for your hair growing</h3>
+                        <div class="icons">
+                            <div class="icons-blog">
+                                <img src="img/eye.png" alt="">
+                            </div>
+                            <p>9999 Views</p>
+                            <div class="icons-blog">
+                                <img src="img/text.png" alt="">
+                            </div>
+                            <p>9999 Comments</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit enim distinctio 
+                            eveniet facere.</p>
+                        <button class="btn btn-6">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="blogs">
+                <div class="line-blog">
+                    <div class="col-blog">
+                        <div class="imagen-blog">
+                            <img src="img/blog-2.jpg" alt="">
+                        </div>
+                        <h3>How to take care of hair naturally</h3>
+                        <div class="icons">
+                            <div class="icons-blog">
+                                <img src="img/eye.png" alt="">
+                            </div>
+                            <p>9999 Views</p>
+                            <div class="icons-blog">
+                                <img src="img/text.png" alt="">
+                            </div>
+                            <p>9999 Comments</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit enim distinctio 
+                            eveniet facere.</p>
+                        <button class="btn btn-6">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="blogs">
+                <div class="line-blog">
+                    <div class="col-blog">
+                        <div class="imagen-blog">
+                            <img src="img/blog-3.jpg" alt="">
+                        </div>
+                        <h3>How to use our natural & organic shampoo</h3>
+                        <div class="icons">
+                            <div class="icons-blog">
+                                <img src="img/eye.png" alt="">
+                            </div>
+                            <p>9999 Views</p>
+                            <div class="icons-blog">
+                                <img src="img/text.png" alt="">
+                            </div>
+                            <p>9999 Comments</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime velit enim distinctio 
+                            eveniet facere.</p>
+                        <button class="btn btn-6">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-
-    <!--Sección de suscripciones-->
+<!--Sección de suscripciones-->
     <section class="subscription" id="subscription">
-
+        <div class="bg-subs">
+            <div class="contenedor-subscription">
+                <h1><span>Let's Subscribe</span> The Newsletter</h1>
+                <p>Subscribe now to get 30% discount on any of our products</p>
+                <input type="text" placeholder="Enter Your Email"> <img src="img/send.png" alt="">
+            </div>
+        </div>
     </section>
-
-    <!--Sección de contactos-->
+<!--Sección de contactos-->
     <section class="contact" id="contact">
-
+        <div class="fila-contact">
+            <div class="col-contact">
+                <div class="info-contact">
+                    <h1>Hairnic</h1><br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum dolorum 
+                        voluptatum soluta atque, harum praesentium accusantium a esse. Maiores 
+                        voluptatibus dolore minima ipsam fugit cupiditate</p>
+                </div>
+            </div>
+            <div class="col-contact">
+                <div class="info-contact">
+                    <h4>Get In Touch</h4>
+                    <div class="i-contact">
+                        <div class="icons-contact">
+                            <img src="img/ubicación.png" alt="">
+                        </div>
+                        <p>123 Street, New York, USA</p>
+                    </div>
+                    <div class="i-contact">
+                        <div class="icons-contact">
+                            <img src="img/telefono.png" alt="">
+                        </div>
+                        <p>+012 345 67890</p>
+                    </div>
+                    <div class="i-contact">
+                        <div class="icons-contact">
+                            <img src="img/email.png" alt="">
+                        </div>
+                        <p>info@example.com</p>
+                    </div>
+                    <div class="social-media">
+                        <img class="media-icon" src="img/twitter.png" alt="">
+                        <img class="media-icon" src="img/facebook.png" alt="">
+                        <img class="media-icon" src="img/instagram.png" alt="">
+                        <img class="media-icon" src="img/linkedin.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-contact">
+                <div class="info-contact">
+                    <h4>Our Products</h4>
+                    <li><a href="#">Hair Shining Shampoo</a></li>
+                    <li><a href="#">Anti-dandruff Shampoo</a></li>
+                    <li><a href="#">Anti Hair Fall Shampoo</a></li>
+                    <li><a href="#">Hair Growing Shampoo</a></li>
+                    <li><a href="#">Anti Smell Shampoo</a></li>
+                </div>
+            </div>
+            <div class="col-contact">
+                <div class="info-contact">
+                    <h4>Popular Link</h4>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                    <li><a href="#">Career</a></li>
+                </div>
+            </div>
+        </div>
     </section>
+</main>
 
-    <!--Pie de página-->
-    <footer>
-
-    </footer>
+<!--Pie de página-->
+<footer class="footer">
+    <p>© Hairnic, All Right Reserved. Designed By IT Raiden Consulting</p>
+    <nav class="nav-footer">
+        <a href="#">Home</a>
+        <a href="#">Cookies</a>
+        <a href="#">Help</a>
+        <a href="#">FAQs</a>
+    </nav>
+</footer>
 </body>
 </html>
